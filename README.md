@@ -1,4 +1,6 @@
 SymfonyApp
 ==========
 
-A Symfony project created on March 1, 2017, 1:49 pm.
+A Symfony project.
+
+Simple todo list that has the ability to add, edit, remove, and see details of todo tasks.
