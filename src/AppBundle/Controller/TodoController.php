@@ -158,6 +158,13 @@ class TodoController extends Controller
         return $this->render('todo/details.html.twig', array( 'todo' => $todo ));
     }
     /**
+     * @Route("/todo/admin", name="todo_admin")
+     */
+    public function adminAction() {
+
+        return $this->render('todo/admin.html.twig');
+    }
+    /**
      * @Route("/todo/delete/{id}", name="todo_delete")
      */
     public function deleteAction($id) {
