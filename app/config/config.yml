@@ -34,6 +34,15 @@ framework:
     php_errors:
         log: true
 
+# Assetic Configuration
+
+assetic:
+    bundles:        ['AppBundle']
+    debug:          '%kernel.debug%'
+    use_controller: '%kernel.debug%'
+    filters:
+        cssrewrite: ~
+
 # Twig Configuration
 twig:
     debug:            "%kernel.debug%"
